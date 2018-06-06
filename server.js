@@ -182,7 +182,7 @@ client.analyseText(message)
     })
 
 
-    return bot.reply(update, 'Good One');
+    return bot.reply(update, dataToSend);
   }
 });
 
